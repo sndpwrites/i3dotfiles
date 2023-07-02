@@ -14,7 +14,7 @@ exec --no-startup-id compton
 
 #center, fill, max, scale or tile
 #exec (feh  --image-bg black --bg-scale '/home/sndp/Pictures/lotr_high_res/1446462124244.jpg')
-#exec (feh --image-bg black --bg-scale '/home/sndp/Pictures/asdf.jpg')
+exec `feh --image-bg black --bg-scale '/home/sndp/Pictures/asdf.jpg'`
 
 
 # Font for window titles. Will also be used by the bar unless a different font
