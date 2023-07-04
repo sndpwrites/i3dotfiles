@@ -16,6 +16,11 @@ exec --no-startup-id compton
 #exec (feh  --image-bg black --bg-scale '/home/sndp/Pictures/lotr_high_res/1446462124244.jpg')
 exec `feh --image-bg black --bg-scale '/home/sndp/Pictures/asdf.jpg'`
 
+#Setup to display in external monitor only
+#autorandr needs to be installed and
+#autorandr mobile setup to display in laptop screen
+#autorandr docked setup to display in external monitor
+exec `autorandr docked`
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
