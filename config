@@ -12,11 +12,15 @@
 set $mod Mod4
 exec --no-startup-id compton
 
+exec `autorandr docked`
 #center, fill, max, scale or tile
 #exec (feh  --image-bg black --bg-scale '/home/sndp/Pictures/lotr_high_res/1446462124244.jpg')
-#exec (feh --image-bg black --bg-scale '/home/sndp/Pictures/asdf.jpg')
+exec `feh --image-bg black --bg-fill '/home/sndp/Pictures/lotr.jpg'`
 
-
+#change monitor setup to display on external display only
+#note that autorandr needs to be installed and
+#autorandr mobile is setup to display in laptop screen
+#autorandr docked is setup to display external monitor
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
